@@ -1,0 +1,74 @@
+/* *{
+    margin: 0px;
+    padding:0px;
+} */
+body{
+    margin-top: -60px;
+    background-image: url('./images/background2.jpg');
+    background-size: cover;
+    /* height: 100vh; */
+    /* width: 200px; */
+}
+.start {
+   display:flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  
+}
+.instruct{
+    font-size: 20px;
+    background-color: rgb(56, 54, 54);
+    cursor:pointer;
+    border-radius: 15%;
+    box-shadow: 2px 2px grey;
+    padding: 10px;
+}
+.instruct:hover{
+    background-color: rgba(119, 29, 29, 0.459);
+}
+#title{
+    text-decoration: solid;
+    color:rgb(131, 187, 0);
+    font-size: 90px;
+    margin-bottom: 50px;
+}
+#hangman{
+    margin-left: 700px;
+    margin-top: -20px;
+}
+#guess{
+    margin-top: -10px;
+    font-size: xxx-large;
+    
+    margin-left: -30px;
+}
+
+.alpha{
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 25%;
+    cursor: pointer;
+   
+}
+.alpha:hover{
+    background-color: rgba(119, 29, 29, 0.459);
+}
+#first{
+    margin-left: 550px;;
+}
+.alpha2{
+    margin:10px;
+    font-size: 30px;
+    border-radius:25% ;
+}
+#second{
+    margin-left: 580px;
+}
+.alpha3{
+    margin:10px;
+    font-size: 30px;
+    border-radius:25% ;
+}
+#third{
+    margin-left: 620px;;
+}
